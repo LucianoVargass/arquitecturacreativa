@@ -1,0 +1,55 @@
+
+
+
+.text{
+
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.flip:first-child{
+    animation: slide 20s infinite;
+}
+
+.flip{
+    height: 40px;
+    color: red;
+}
+
+
+
+@keyframes slide{
+    0%{
+        margin-top:0;
+    }
+    
+    16%{
+        margin-top:-40px;
+    }
+
+    33%{
+        margin-top:-80px;
+    }
+
+    50%{
+        margin-top:-125px;
+    }
+
+    66%{
+        margin-top:-80px;
+    }
+
+    82%{
+        margin-top:-40px;
+    }
+
+    100%{
+        margin-top:0;
+    }
+}
+
